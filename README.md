@@ -5,12 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/OpenSSL-Swift-Pod.svg?style=flat)](https://cocoapods.org/pods/OpenSSL-Swift-Pod)
 [![Platform](https://img.shields.io/cocoapods/p/OpenSSL-Swift-Pod.svg?style=flat)](https://cocoapods.org/pods/OpenSSL-Swift-Pod)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
 ## Installation
 
 OpenSSL-Swift-Pod is available through [CocoaPods](https://cocoapods.org). To install
@@ -22,7 +16,7 @@ pod 'OpenSSL-Swift-Pod'
 
 ## Author
 
-DaveDude, dweilerthi@gmail.com
+DaveDude, dweilerthi at gmail.com
 
 ## License
 
