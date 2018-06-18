@@ -13,5 +13,6 @@ Provides helper functions to assist using OpenSSL from Swift.  For example, acce
   s.platform         = :ios
   s.source_files     = 'OpenSSL-Swift-Pod/src/**/*'
   s.public_header_files = 'OpenSSL-Swift-Pod/src/**/*.h'
-#  s.dependency 'openssl-ios-bitcode-ii'
+  s.dependency 'openssl-ios-bitcode-ii'
+  s.static_framework = true
 end
