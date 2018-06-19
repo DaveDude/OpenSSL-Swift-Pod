@@ -11,7 +11,7 @@ Provides helper functions to assist using OpenSSL from Swift.  For example, acce
   s.source           = { :git => 'https://github.com/DaveDude/OpenSSL-Swift-Pod.git', :tag => '1.0.0' }
 
   s.platform         = :ios
-  s.module_map       = 'OpenSSL-Swift-Pod/src/.modulemap'
+#  s.module_map       = 'OpenSSL-Swift-Pod/src/.modulemap'
   s.source_files     = 'OpenSSL-Swift-Pod/src/**/*'
   s.public_header_files = 'OpenSSL-Swift-Pod/src/**/*.h'
   s.dependency 'openssl-ios-bitcode-ii'
