@@ -1,6 +1,0 @@
-framework module OpenSSL_Swift {
-  umbrella header "OpenSSL-Swift-umbrella.h"
-
-  export *
-  module * { export * }
-}

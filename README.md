@@ -1,22 +1,10 @@
 # OpenSSL-Swift-Pod
 
-[![CI Status](https://img.shields.io/travis/DaveDude/OpenSSL-Swift-Pod.svg?style=flat)](https://travis-ci.org/DaveDude/OpenSSL-Swift-Pod)
-[![Version](https://img.shields.io/cocoapods/v/OpenSSL-Swift-Pod.svg?style=flat)](https://cocoapods.org/pods/OpenSSL-Swift-Pod)
-[![License](https://img.shields.io/cocoapods/l/OpenSSL-Swift-Pod.svg?style=flat)](https://cocoapods.org/pods/OpenSSL-Swift-Pod)
-[![Platform](https://img.shields.io/cocoapods/p/OpenSSL-Swift-Pod.svg?style=flat)](https://cocoapods.org/pods/OpenSSL-Swift-Pod)
+## Purpose
 
-## Installation
+OpenSSL-Swift-Pod contains some helper C functions that make it easier to use some of the structures defined in OpenSSL within Swift.  For example, there are structures with embedded unions within PKCS7 that cannot be accessed directly from Swift.
 
-OpenSSL-Swift-Pod is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'OpenSSL-Swift-Pod'
-```
-
-## Author
-
-DaveDude, dweilerthi at gmail.com
+To use these helper functions copy the src files in this repo to a Swift project that has OpenSSL.
 
 ## License
 
